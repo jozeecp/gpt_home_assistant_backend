@@ -1,0 +1,7 @@
+pydantic==2.0.2
+Flask==2.3.2
+black==23.3.0
+isort==5.12.0
+openai==0.27.8
+Jinja2==3.1.2
+gunicorn==20.1.0

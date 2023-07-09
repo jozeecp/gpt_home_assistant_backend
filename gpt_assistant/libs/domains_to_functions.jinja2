@@ -1,0 +1,27 @@
+[
+{% for domain in domains %}
+{% for service, details in domain.services.items() %}
+{
+    "name": "{{ domain }}__{{ service }}",
+    "description": "{{ details.description }}",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            {% for field, field_details in details.fields.items() %}
+            "{{ field }}": {
+                "type": "{{ field_details.selector.keys()|first if field_details.selector else 'string' }}",
+                "description": "{{ field_details.description }}",
+                {% if field_details.required %}
+                "required": true
+                {% else %}
+                "required": false
+                {% endif %}
+            }{% if not loop.last %},{% endif %}
+            {% endfor %}
+        },
+        "required": [ {% for field, field_details in details.fields.items() if field_details.required %}"{{ field }}"{% if not loop.last %},{% endif %}{% endfor %} ]
+    }
+}{% if not loop.last %},{% endif %}
+{% endfor %}
+{% endfor %}
+]
