@@ -14,36 +14,20 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: build and push container
-      run: |
-        echo "${{ secrets.GHCR_PAT_TOKEN }}" | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
-        docker build -t ghcr.io/${{ github.repository }}/gpt_assistant:latest ./gpt_assistant
-        docker push ghcr.io/${{ github.repository }}/gpt_assistant:latest
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
 
-    # - name: Set up QEMU
-    #   uses: docker/setup-qemu-action@v1
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v1 
+      with:
+        registry: ghcr.io
+        username: ${{ github.repository_owner }}
+        password: ${{ secrets.GHCR_PAT_TOKEN }}
 
-    # - name: Set up Docker Buildx
-    #   uses: docker/setup-buildx-action@v1
-
-    # - name: Login to GitHub Container Registry
-    #   uses: docker/login-action@v1 
-    #   with:
-    #     registry: ghcr.io
-    #     username: ${{ github.repository_owner }}
-    #     password: ${{ secrets.GHCR_PAT_TOKEN }}
-    # # - name: Login to GHCR
-    # #   run: echo "${{ secrets.GHCR_PAT_TOKEN }}" | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
-
-    # - name: Build and push
-    #   id: docker_build
-    #   uses: docker/build-push-action@v2
-    #   with:
-    #     username: ${{ github.repository_owner }}
-    #     password: ${{ secrets.GHCR_PAT_TOKEN }}
-    #     context: ./gpt_assistant
-    #     push: true
-    #     tags: ghcr.io/${{ github.repository }}/gpt_assistant:latest
-
-    # - name: Image digest
-    #   run: echo ${{ steps.docker_build.outputs.digest }}
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v2
+      with:
+        context: ./gpt_assistant
+        push: true
+        tags: ghcr.io/${{ github.repository }}/gpt_assistant:latest
+        platforms: linux/arm/v7
