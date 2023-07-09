@@ -6,6 +6,7 @@ WORKDIR /app
 COPY . ./
 
 # Install Python, pip, rust, cargo and dependencies
-RUN apk add --no-cache python3 py3-pip rust cargo && pip3 install -r requirements.txt
+# RUN apk add --no-cache python3 py3-pip rust cargo && pip3 install -r requirements.txt
+RUN apk add --no-cache python3 py3-pip && pip3 install -r requirements.txt
 
 CMD [ "/run.sh" ]
