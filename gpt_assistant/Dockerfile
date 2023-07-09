@@ -6,6 +6,6 @@ WORKDIR /app
 COPY . ./
 
 # Install dependencies
-RUN pip install -r requirements.txts
+RUN pip install -r requirements.txt
 
 CMD [ "/run.sh" ]
