@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . ./
 
-# Install dependencies
-RUN pip3 install -r requirements.txt
+# Install Python, pip and dependencies
+RUN apk add --no-cache python3 py3-pip && pip3 install -r requirements.txt
 
 CMD [ "/run.sh" ]
