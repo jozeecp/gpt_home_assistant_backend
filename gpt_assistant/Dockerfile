@@ -1,4 +1,4 @@
-ARG BUILD_FROM=arm32v7/alpine:3.18.2
+ARG BUILD_FROM=arm64v8/alpine:3.18.2
 FROM $BUILD_FROM
 
 WORKDIR /app
