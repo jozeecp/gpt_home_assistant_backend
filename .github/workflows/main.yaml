@@ -33,6 +33,8 @@ jobs:
       id: docker_build
       uses: docker/build-push-action@v2
       with:
+        username: ${{ github.repository_owner }}
+        password: ${{ secrets.GHCR_PAT_TOKEN }}
         context: ./gpt_assistant
         push: true
         tags: ghcr.io/${{ github.repository }}/gpt_assistant:latest
