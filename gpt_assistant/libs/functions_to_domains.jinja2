@@ -1,0 +1,23 @@
+[
+{% for domain, functions in grouped.items() %}
+{
+    "domain": "{{ domain }}",
+    "services": {
+        {% for function in functions %}
+        "{{ function.name.split('__')[1] }}": {
+            "description": "{{ function.description }}",
+            "fields": {
+                {% for field, field_details in function.parameters.properties.items() %}
+                "{{ field }}": {
+                    "selector": "{{ field_details.type }}",
+                    "description": "{{ field_details.description }}",
+                    "required": {{ 'true' if field in function.parameters.required else 'false' }}
+                }{% if not loop.last %},{% endif %}
+                {% endfor %}
+            }
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+    }
+}{% if not loop.last %},{% endif %}
+{% endfor %}
+]

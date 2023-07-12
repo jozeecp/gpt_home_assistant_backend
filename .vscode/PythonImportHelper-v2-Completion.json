@@ -1,0 +1,602 @@
+[
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "flask",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "flask",
+        "description": "flask",
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "RequestBody",
+        "importPath": "functions.v1.requests.post.schema.body",
+        "description": "functions.v1.requests.post.schema.body",
+        "isExtraImport": true,
+        "detail": "functions.v1.requests.post.schema.body",
+        "documentation": {}
+    },
+    {
+        "label": "GPTInterface",
+        "importPath": "libs.llm_utils",
+        "description": "libs.llm_utils",
+        "isExtraImport": true,
+        "detail": "libs.llm_utils",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "libs.utils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "libs.utils",
+        "description": "libs.utils",
+        "detail": "libs.utils",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Template",
+        "importPath": "jinja2",
+        "description": "jinja2",
+        "isExtraImport": true,
+        "detail": "jinja2",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "libs.base",
+        "description": "libs.base",
+        "isExtraImport": true,
+        "detail": "libs.base",
+        "documentation": {}
+    },
+    {
+        "label": "search_dicts",
+        "importPath": "libs.recursive_search",
+        "description": "libs.recursive_search",
+        "isExtraImport": true,
+        "detail": "libs.recursive_search",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRequestBody",
+        "importPath": "models.gpt_models",
+        "description": "models.gpt_models",
+        "isExtraImport": true,
+        "detail": "models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "Function",
+        "importPath": "models.gpt_models",
+        "description": "models.gpt_models",
+        "isExtraImport": true,
+        "detail": "models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "FunctionCall",
+        "importPath": "models.gpt_models",
+        "description": "models.gpt_models",
+        "isExtraImport": true,
+        "detail": "models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "FunctionRequestBody",
+        "importPath": "models.gpt_models",
+        "description": "models.gpt_models",
+        "isExtraImport": true,
+        "detail": "models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "models.gpt_models",
+        "description": "models.gpt_models",
+        "isExtraImport": true,
+        "detail": "models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "Domain",
+        "importPath": "models.service",
+        "description": "models.service",
+        "isExtraImport": true,
+        "detail": "models.service",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "models.state",
+        "description": "models.state",
+        "isExtraImport": true,
+        "detail": "models.state",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "gpt_assistant.libs.base",
+        "description": "gpt_assistant.libs.base",
+        "isExtraImport": true,
+        "detail": "gpt_assistant.libs.base",
+        "documentation": {}
+    },
+    {
+        "label": "dictify_list_of_base_models",
+        "importPath": "gpt_assistant.libs.utils",
+        "description": "gpt_assistant.libs.utils",
+        "isExtraImport": true,
+        "detail": "gpt_assistant.libs.utils",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Function",
+        "importPath": "gpt_assistant.models.gpt_models",
+        "description": "gpt_assistant.models.gpt_models",
+        "isExtraImport": true,
+        "detail": "gpt_assistant.models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "handler",
+        "importPath": "functions.v1.requests.post.handler",
+        "description": "functions.v1.requests.post.handler",
+        "isExtraImport": true,
+        "detail": "functions.v1.requests.post.handler",
+        "documentation": {}
+    },
+    {
+        "label": "RequestBody",
+        "kind": 6,
+        "importPath": "gpt_assistant.functions.v1.requests.post.schema.body",
+        "description": "gpt_assistant.functions.v1.requests.post.schema.body",
+        "peekOfCode": "class RequestBody(BaseModel):\n    \"\"\"Request body for the service\"\"\"\n    request_description: str",
+        "detail": "gpt_assistant.functions.v1.requests.post.schema.body",
+        "documentation": {}
+    },
+    {
+        "label": "handler",
+        "kind": 2,
+        "importPath": "gpt_assistant.functions.v1.requests.post.handler",
+        "description": "gpt_assistant.functions.v1.requests.post.handler",
+        "peekOfCode": "def handler(request):\n    # Get the request body\n    request_body = RequestBody(**request.get_json())\n    result = GPTInterface().execute_request(request_body.request_description)\n    return {\n        \"statusCode\": 200,\n        \"body\": result,\n    }",
+        "detail": "gpt_assistant.functions.v1.requests.post.handler",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "gpt_assistant.libs.base",
+        "description": "gpt_assistant.libs.base",
+        "peekOfCode": "class Base:\n    def __init__(self):\n        self.home_assistant_url = \"http://localhost:8123\"\n        self.home_assistant_jwt = os.environ.get(\"HOME_ASSISTANT_JWT\")\n        self.home_assistant_headers = {\n            \"Authorization\": f\"Bearer {self.home_assistant_jwt}\",\n        }\n        self.openai_api_key = os.environ.get(\"OPENAI_API_KEY\")",
+        "detail": "gpt_assistant.libs.base",
+        "documentation": {}
+    },
+    {
+        "label": "GPTInterface",
+        "kind": 6,
+        "importPath": "gpt_assistant.libs.llm_utils",
+        "description": "gpt_assistant.libs.llm_utils",
+        "peekOfCode": "class GPTInterface(Base):\n    def __init__(self):\n        self.system_prompt = \"\"\"\n        You are an AI assistant with \n        control over my Home Assistant system.\n        You collaborate with other AI helpers.\n        Use your function call ability to \n        accomplish the user's request. \n        Only use the functions and data that are available\n        to you. You can use the functions to change states",
+        "detail": "gpt_assistant.libs.llm_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "gpt_assistant.libs.llm_utils",
+        "description": "gpt_assistant.libs.llm_utils",
+        "peekOfCode": "logger = utils.get_logger(__name__, level=\"DEBUG\")\nclass GPTInterface(Base):\n    def __init__(self):\n        self.system_prompt = \"\"\"\n        You are an AI assistant with \n        control over my Home Assistant system.\n        You collaborate with other AI helpers.\n        Use your function call ability to \n        accomplish the user's request. \n        Only use the functions and data that are available",
+        "detail": "gpt_assistant.libs.llm_utils",
+        "documentation": {}
+    },
+    {
+        "label": "recursive_search",
+        "kind": 2,
+        "importPath": "gpt_assistant.libs.recursive_search",
+        "description": "gpt_assistant.libs.recursive_search",
+        "peekOfCode": "def recursive_search(data, search_string):\n    if isinstance(data, dict):\n        for key, value in data.items():\n            if recursive_search(value, search_string):\n                return True\n    elif isinstance(data, list):\n        for item in data:\n            if recursive_search(item, search_string):\n                return True\n    elif isinstance(data, str):",
+        "detail": "gpt_assistant.libs.recursive_search",
+        "documentation": {}
+    },
+    {
+        "label": "search_dicts",
+        "kind": 2,
+        "importPath": "gpt_assistant.libs.recursive_search",
+        "description": "gpt_assistant.libs.recursive_search",
+        "peekOfCode": "def search_dicts(list_of_dicts, search_string):\n    matches = []\n    for dict_item in list_of_dicts:\n        if recursive_search(dict_item, search_string):\n            matches.append(dict_item)\n    return matches\n# Example usage:\n# list_of_dicts = [\n#     {'name': 'John', 'age': 30, 'city': 'New York', 'hobbies': ['reading', 'swimming']},\n#     {'name': 'Jane', 'age': 25, 'city': 'Chicago', 'hobbies': ['painting', 'cycling']},",
+        "detail": "gpt_assistant.libs.recursive_search",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "kind": 2,
+        "importPath": "gpt_assistant.libs.utils",
+        "description": "gpt_assistant.libs.utils",
+        "peekOfCode": "def get_logger(name, level=logging.INFO):\n    \"\"\"Get logger\"\"\"\n    logger = logging.getLogger(name)\n    logger.setLevel(level)\n    return logger\ndef dictify_list_of_base_models(list_of_base_models):\n    \"\"\"Turn a list of BaseModels into a list of dicts\"\"\"\n    return [base_model.dict() for base_model in list_of_base_models]",
+        "detail": "gpt_assistant.libs.utils",
+        "documentation": {}
+    },
+    {
+        "label": "dictify_list_of_base_models",
+        "kind": 2,
+        "importPath": "gpt_assistant.libs.utils",
+        "description": "gpt_assistant.libs.utils",
+        "peekOfCode": "def dictify_list_of_base_models(list_of_base_models):\n    \"\"\"Turn a list of BaseModels into a list of dicts\"\"\"\n    return [base_model.dict() for base_model in list_of_base_models]",
+        "detail": "gpt_assistant.libs.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.gpt_models",
+        "description": "gpt_assistant.models.gpt_models",
+        "peekOfCode": "class Message(BaseModel):\n    \"\"\"Message for the service\"\"\"\n    role: str\n    content: str\nclass Property(BaseModel):\n    \"\"\"Property for the service\"\"\"\n    name: str\n    description: Optional[str]\n    enum: Optional[List[str]]\nclass Parameters(BaseModel):",
+        "detail": "gpt_assistant.models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "Property",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.gpt_models",
+        "description": "gpt_assistant.models.gpt_models",
+        "peekOfCode": "class Property(BaseModel):\n    \"\"\"Property for the service\"\"\"\n    name: str\n    description: Optional[str]\n    enum: Optional[List[str]]\nclass Parameters(BaseModel):\n    \"\"\"Parameter for the service\"\"\"\n    type: str\n    properties: List[Property]\n    required: List[str]",
+        "detail": "gpt_assistant.models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "Parameters",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.gpt_models",
+        "description": "gpt_assistant.models.gpt_models",
+        "peekOfCode": "class Parameters(BaseModel):\n    \"\"\"Parameter for the service\"\"\"\n    type: str\n    properties: List[Property]\n    required: List[str]\nclass Function(BaseModel):\n    \"\"\"Function for the service\"\"\"\n    name: str\n    description: str\n    parameters: Parameters",
+        "detail": "gpt_assistant.models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "Function",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.gpt_models",
+        "description": "gpt_assistant.models.gpt_models",
+        "peekOfCode": "class Function(BaseModel):\n    \"\"\"Function for the service\"\"\"\n    name: str\n    description: str\n    parameters: Parameters\nclass BaseRequestBody(BaseModel):\n    \"\"\"Request body for the service\"\"\"\n    model: str = \"gpt-3.5-turbo-0613\"\n    messages: List[Message]\nclass FunctionRequestBody(BaseRequestBody):",
+        "detail": "gpt_assistant.models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRequestBody",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.gpt_models",
+        "description": "gpt_assistant.models.gpt_models",
+        "peekOfCode": "class BaseRequestBody(BaseModel):\n    \"\"\"Request body for the service\"\"\"\n    model: str = \"gpt-3.5-turbo-0613\"\n    messages: List[Message]\nclass FunctionRequestBody(BaseRequestBody):\n    \"\"\"Request body for the function service\"\"\"\n    functions: List[Function]\n    function_call: str = \"auto\"\nclass FunctionCall(BaseModel):\n    \"\"\"Function call for the service\"\"\"",
+        "detail": "gpt_assistant.models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "FunctionRequestBody",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.gpt_models",
+        "description": "gpt_assistant.models.gpt_models",
+        "peekOfCode": "class FunctionRequestBody(BaseRequestBody):\n    \"\"\"Request body for the function service\"\"\"\n    functions: List[Function]\n    function_call: str = \"auto\"\nclass FunctionCall(BaseModel):\n    \"\"\"Function call for the service\"\"\"\n    name: str\n    arguments: str\n    @property\n    def arguments_dict(self) -> Dict[str, Any]:",
+        "detail": "gpt_assistant.models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "FunctionCall",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.gpt_models",
+        "description": "gpt_assistant.models.gpt_models",
+        "peekOfCode": "class FunctionCall(BaseModel):\n    \"\"\"Function call for the service\"\"\"\n    name: str\n    arguments: str\n    @property\n    def arguments_dict(self) -> Dict[str, Any]:\n        \"\"\"Get arguments dict\"\"\"\n        return json.loads(self.arguments)",
+        "detail": "gpt_assistant.models.gpt_models",
+        "documentation": {}
+    },
+    {
+        "label": "Target",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.service",
+        "description": "gpt_assistant.models.service",
+        "peekOfCode": "class Target(BaseModel):\n    \"\"\"Target for the service\"\"\"\n    entity: Dict[str, Any]\nclass Field(BaseModel):\n    \"\"\"Field for the service\"\"\"\n    name: str\n    description: str\n    required: bool\n    example: Any\n    selector: Optional[Dict[str, Any]]",
+        "detail": "gpt_assistant.models.service",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.service",
+        "description": "gpt_assistant.models.service",
+        "peekOfCode": "class Field(BaseModel):\n    \"\"\"Field for the service\"\"\"\n    name: str\n    description: str\n    required: bool\n    example: Any\n    selector: Optional[Dict[str, Any]]\nclass Service(BaseModel):\n    name: str\n    description: str",
+        "detail": "gpt_assistant.models.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.service",
+        "description": "gpt_assistant.models.service",
+        "peekOfCode": "class Service(BaseModel):\n    name: str\n    description: str\n    fields: Optional[Dict[str, Field]]\nclass Domain(BaseModel):\n    domain: str\n    services: Optional[Dict[str, Service]]",
+        "detail": "gpt_assistant.models.service",
+        "documentation": {}
+    },
+    {
+        "label": "Domain",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.service",
+        "description": "gpt_assistant.models.service",
+        "peekOfCode": "class Domain(BaseModel):\n    domain: str\n    services: Optional[Dict[str, Service]]",
+        "detail": "gpt_assistant.models.service",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "kind": 6,
+        "importPath": "gpt_assistant.models.state",
+        "description": "gpt_assistant.models.state",
+        "peekOfCode": "class State(BaseModel):\n    \"\"\"State for the service\"\"\"\n    entity_id: str\n    state: str\n    attributes: Dict[str, Any]\n    last_changed: str",
+        "detail": "gpt_assistant.models.state",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "gpt_assistant.app",
+        "description": "gpt_assistant.app",
+        "peekOfCode": "def health():\n    \"\"\"Health check endpoint\"\"\"\n    return jsonify({\"status\": \"OK\"}), 200\n@app.route(\"/api/v1/requests\", methods=[\"POST\"])\ndef requests():\n    \"\"\"Requests endpoint\"\"\"\n    # Call the handler function\n    try:\n        response = requests_post_handler(request)\n    except Exception as e:",
+        "detail": "gpt_assistant.app",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 2,
+        "importPath": "gpt_assistant.app",
+        "description": "gpt_assistant.app",
+        "peekOfCode": "def requests():\n    \"\"\"Requests endpoint\"\"\"\n    # Call the handler function\n    try:\n        response = requests_post_handler(request)\n    except Exception as e:\n        logger.error(e)\n        response = {\"statusCode\": 500, \"body\": {\"error\": str(e)}}\n    return jsonify(response), response[\"statusCode\"]\nif __name__ == \"__main__\":",
+        "detail": "gpt_assistant.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "gpt_assistant.app",
+        "description": "gpt_assistant.app",
+        "peekOfCode": "app = Flask(__name__)\nlogger = utils.get_logger(__name__, level=\"DEBUG\")\n@app.route(\"/api/v1/health\", methods=[\"GET\"])\ndef health():\n    \"\"\"Health check endpoint\"\"\"\n    return jsonify({\"status\": \"OK\"}), 200\n@app.route(\"/api/v1/requests\", methods=[\"POST\"])\ndef requests():\n    \"\"\"Requests endpoint\"\"\"\n    # Call the handler function",
+        "detail": "gpt_assistant.app",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "gpt_assistant.app",
+        "description": "gpt_assistant.app",
+        "peekOfCode": "logger = utils.get_logger(__name__, level=\"DEBUG\")\n@app.route(\"/api/v1/health\", methods=[\"GET\"])\ndef health():\n    \"\"\"Health check endpoint\"\"\"\n    return jsonify({\"status\": \"OK\"}), 200\n@app.route(\"/api/v1/requests\", methods=[\"POST\"])\ndef requests():\n    \"\"\"Requests endpoint\"\"\"\n    # Call the handler function\n    try:",
+        "detail": "gpt_assistant.app",
+        "documentation": {}
+    }
+]
